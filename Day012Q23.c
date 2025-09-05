@@ -8,10 +8,10 @@ int main(){
     printf("Enter no of late days: ");
     scanf("%d",&n);
 
-    if (n<=7){
+    if (n<=5){
         fine = n*2;
         printf("Fine is %d Rupees\n",fine);
-    }else if(n<=14){
+    }else if(n<=10){
         fine = n*4;
         printf("Fine is %d Rupees\n",fine);
     }else if(n<=30){
