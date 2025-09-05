@@ -8,14 +8,17 @@ int main(){
     printf("Enter unit consumed: ");
     scanf("%f",&u);
 
-    if(u<=50){
+    if(u<=100){
         b = u*5;
         printf("Bill is:%.2f\n",b);
-    }else if(u<=150){
-        b = u*6.33;
+    }else if(u<=200){
+        b = u*7;
+        printf("Bill is:%.2f\n",b);
+    }else if(u<=300){
+        b = u*10;
         printf("Bill is:%.2f\n",b);
     }else{
-        b = u*8.8;
+        b = u*12;
         printf("Bill is:%.2f\n",b);
     }
 
